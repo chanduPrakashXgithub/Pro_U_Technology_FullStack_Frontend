@@ -1,0 +1,50 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
+build/
+
+# Vite / caching
+.vite/
+.cache/
+
+# Coverage
+coverage/
+
+# Temporary
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Database dumps
+*.dump
+
+# Secrets
+secrets.json
+
+# Local runtime files
+*.pid
+
+# Misc
+*.pem
+
