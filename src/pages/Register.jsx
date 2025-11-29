@@ -41,9 +41,9 @@ const Register = () => {
             <form onSubmit={handleSubmit} className="form">
                 <h2>Register</h2>
                 {error && <p className="error">{error}</p>}
-                <Input label="Username" name="username" autoComplete="username" value={formData.username} onChange={(e) => setFormData({ ...formData, username: e.target.value })} />
-                <Input label="Password" name="password - Min 6+ Characters" type="password" autoComplete="new-password" value={formData.password} onChange={(e) => setFormData({ ...formData, password: e.target.value })} />
-                <label style={{ marginBottom: '.5rem', fontWeight: 500 }}>Role (for demo/learning)</label>
+                <Input label="Username {Email}" name="username" autoComplete="username" value={formData.username} onChange={(e) => setFormData({ ...formData, username: e.target.value })} />
+                <Input label="Password - Min 6+ Characters" name="password " type="password" autoComplete="new-password" value={formData.password} onChange={(e) => setFormData({ ...formData, password: e.target.value })} />
+                <label style={{ marginBottom: '.5rem', fontWeight: 500 }}>Role</label>
                 <select className="select" value={formData.role} onChange={(e) => setFormData({ ...formData, role: e.target.value })}>
                     <option value="user">User</option>
                     <option value="admin">Admin</option>
