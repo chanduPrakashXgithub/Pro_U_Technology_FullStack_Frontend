@@ -48,7 +48,7 @@ const Register = () => {
                     <option value="user">User</option>
                     <option value="admin">Admin</option>
                 </select>
-                <p style={{ fontSize: '.85rem', color: '#666', marginTop: '-0.5rem' }}>Selecting <strong>admin</strong> will create an admin account — in production restrict this to existing admins only.</p>
+                <p style={{ fontSize: '.85rem', color: '#666', marginTop: '-0.5rem' }}>Selecting <strong>admin</strong> will create an admin account.</p>
                 <Button type="submit" disabled={loading}>{loading ? 'Registering...' : 'Register'}</Button>
             </form>
         </div>
